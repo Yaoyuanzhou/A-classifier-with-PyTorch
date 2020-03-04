@@ -44,9 +44,11 @@ We used this classifier to predict the gender of the chicken, and we used vgg16,
      |--label_n
 ```
 Your data set needs to look like the file structure above.And if you're not dichotomous, change the last output dimension from 2 to n。
-**Then execute the following command**
-`python train.py --data_directory=your dataset --arch=vgg16`
-**if you want to train on resnet or densenet and other, you can change the --arch=vgg16 to --arch=resnet14 or -- arch=densenet101 or other**
+ **Then execute the following command**
+ 
+ `python train.py --data_directory=your dataset --arch=vgg16`
+ 
+ **if you want to train on resnet or densenet and other, you can change the --arch=vgg16 to --arch=resnet34 or -- arch=densenet101 or other**
 ## Visualization of Training Process
 Use tensorboard for visualization. After training, you can enter the following command for visualization.
 
