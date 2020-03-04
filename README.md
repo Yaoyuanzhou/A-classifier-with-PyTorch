@@ -1,9 +1,6 @@
-#A classifier with PyTorch
+# A classifier with PyTorch
 
 **本代码调用Torchvision里的models，分类网络主题框架均是出自torchvision**
-
-
-![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
 ```python
 from .alexnet import *
 from .resnet import *
@@ -29,9 +26,9 @@ AlexNet、densenet121、densenet169、densenet201、densenet161、GoogLeNet、In
 ## Train on our datasets
 我们使用了这个分类器在鸡的性别上做了预测分类，我们使用了vgg16,vgg16_bn,vgg19,vgg19_bn,resnet18,resnet34、densenet101进行了比较。你可以在此处获取我们的[数据集](https://drive.google.com/open?id=1eGq8dWGL0I3rW2B9eJ_casH0_D3x7R73 "数据集")(谷歌云盘，所以大陆用户需翻墙访问，如不能翻墙，如有需要可发邮件给我)
 
-![Pandao editor.md](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png "Pandao editor.md")
 
-##Train on Custom Dataset
+
+## Train on Custom Dataset
 ```
 -your datasets
  |--train
