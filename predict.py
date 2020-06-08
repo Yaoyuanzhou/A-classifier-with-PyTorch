@@ -53,8 +53,8 @@ def main():
     
     
     i = 0
-    for specie in species:
-        print("your dataset named : " + species[i] + " predicted with probability: " + str(probs[i]))
+    for specie in classes:
+        print("your dataset named : " + specie + " predicted with probability: " + str(probs[i]))
         i += 1
     
     pass
