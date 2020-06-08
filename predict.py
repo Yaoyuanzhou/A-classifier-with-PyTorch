@@ -22,7 +22,7 @@ def process_arguments():
     
     parser.add_argument('--top_k',
                        action='store',
-                       dest='topk', default=3, type=int,
+                       dest='topk', default=2, type=int,
                        help='top K most likely classes to return')
     
     parser.add_argument('--mapping',
