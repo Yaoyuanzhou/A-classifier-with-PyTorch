@@ -12,7 +12,7 @@ def process_arguments():
     
     parser.add_argument('--image',
                        action='store',
-                       dest='input_image_path', default='flowers/valid/5/image_05209.jpg',
+                       dest='input_image_path', default='your_dataset/valid/5/image_05209.jpg',
                        help='File path to the input flower image')
     
     parser.add_argument('--checkpoint',
