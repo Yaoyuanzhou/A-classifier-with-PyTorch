@@ -51,12 +51,10 @@ def main():
                                 default_device,
                                 input_arguments.topk)
     
-    # Extract species
-    species = du.extract_mapping(input_arguments.cat_name_file, classes)
     
     i = 0
     for specie in species:
-        print("Flower named : " + species[i] + " predicted with probability: " + str(probs[i]))
+        print("your dataset named : " + species[i] + " predicted with probability: " + str(probs[i]))
         i += 1
     
     pass
